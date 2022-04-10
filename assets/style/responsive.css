@@ -1,0 +1,44 @@
+@media (max-width: 900px) {
+	body {
+		grid-template-areas: "left left" "image image";
+		grid-template-rows: 75vh 25vh;
+	}
+
+	.left {
+		grid-area: left;
+	}
+
+	.logo img {
+		width: 50vw;
+		margin: 20px;
+	}
+
+	#subs {
+		width: 80vw;
+	}
+
+	.link {
+		width: 100%;
+	}
+
+	.link a {
+		color: #fff;
+		text-align: center;
+	}
+
+	.image {
+		grid-area: image;
+		background-image: linear-gradient(to top,rgba(0, 0, 0, .9) 0%,rgba(0, 0, 0, .6) 60%,rgba(0, 0, 0, .9) 100%), url("https://as2.ftcdn.net/v2/jpg/01/22/28/45/1000_F_122284590_rxUuTvDNurJG9tAPRHk8ZiCmZZvoIoSz.jpg");
+		background-size: cover;
+	}
+
+	.image img {
+		display: none;
+	}
+}
+
+@media (max-width: 600px) {
+	#subs {
+		width: 70vw;
+	}
+}
