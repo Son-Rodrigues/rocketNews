@@ -1,3 +1,5 @@
+/* TABLETS */
+
 @media (max-width: 900px) {
 	body {
 		grid-template-areas: "left left" "image image";
@@ -36,6 +38,8 @@
 		display: none;
 	}
 }
+
+/* SMARTPHONES */
 
 @media (max-width: 600px) {
 	#subs {

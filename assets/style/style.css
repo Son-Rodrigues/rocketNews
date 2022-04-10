@@ -16,9 +16,13 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+/* ESQUERDA DA PÁGINA */
+
 .left {
 	grid-area: left;
 }
+
+/* LOGO */
 
 .logo {
 	margin: 20px;
@@ -27,6 +31,8 @@ body {
 .logo img {
 	width: 35vw;
 }
+
+/* TEXTO */
 
 .text {
 	height: 16vw;
@@ -48,6 +54,8 @@ body {
 .text p {
 	padding: 2px;
 }
+
+/* INPUT DE ENTRADA */
 
 form {
 	margin: 20px;
@@ -95,6 +103,8 @@ button:hover {
 	cursor: pointer;
 }
 
+/* LINK NO FINAL DA PÁGINA */
+
 .link {
 	position: absolute;
 	bottom: 60px;
@@ -115,6 +125,8 @@ button:hover {
 	width: 30px;
 	margin-left: 10px;
 }
+
+/* DIREITA DA PÁGINA */
 
 .image {
 	grid-area: image;
